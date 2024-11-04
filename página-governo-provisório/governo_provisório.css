@@ -27,3 +27,11 @@ body {
     z-index: -1; /* Coloca o fundo atrás do conteúdo */
 }
 
+#conteúdo {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#principal {
+    padding-top: 50px;
+}
