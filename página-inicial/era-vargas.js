@@ -7,7 +7,7 @@ governo_provisorio.addEventListener('click', () => {
 });
 
 governo_constitucionalista.addEventListener('click', () => {
-    //Lógica para trocar a página;
+    window.location.href = '../página-governo-constitucionalista/governo_constitucionalista.html';
 });
 
 estado_novo.addEventListener('click', () => {

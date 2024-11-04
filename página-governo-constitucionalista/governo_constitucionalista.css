@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main {
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+#imagem-de-fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../página-inicial/imagens/governo\ constitucionalista.png');
+    background-size: cover; /* Cobre toda a página */
+    background-repeat: no-repeat; /* Impede da imagem se repetir*/
+    filter: grayscale(80%) blur(5px); /* Adiciona um acinzamento*/
+    opacity: 0;
+    transition: opacity 3s ease;
+    z-index: -1; /* Coloca o fundo atrás do conteúdo */
+}
+
